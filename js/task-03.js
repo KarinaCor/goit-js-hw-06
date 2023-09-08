@@ -25,15 +25,8 @@ const markup = images
 galleryList.insertAdjacentHTML('beforeend', markup)
 
 
-
-
-galleryList.insertAdjacentHTML('beforeend', markup)
-.style.display = 'flex';
-galleryList.insertAdjacentHTML('beforeend', markup)
-.style.flexWrap = 'column-reverse'
-galleryList.insertAdjacentHTML('beforeend', markup)
-.style.listStyle = 'none'
-galleryList.insertAdjacentHTML('beforeend', markup)
-.style.gap = '20px'
-galleryList.insertAdjacentHTML('beforeend', markup)
-.style.justifyContent = 'center'
+galleryList.style.display = 'flex';
+galleryList.style.flexDirection = 'column';
+galleryList.style.listStyle = 'none'
+galleryList.style.gap = '20px'
+galleryList.style.justifyContent = 'center'
